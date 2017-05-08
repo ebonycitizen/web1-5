@@ -10,7 +10,7 @@
         <li>掃除する</li>
         <li>買い物する</li>
         <li>ゲームする</li>
-        <li>勉強する</li>
+        <li>ソフトウェアをセットアップする</li>
      </ul>
     
     <h2>設定方法</h2>
@@ -24,6 +24,8 @@
     <h1>introduction</h1>
     <p>今日は以下の実験を行いたいと思います。<strong>危険物</strong>を扱うので、皆さんはケガしないように注意してください。
       <br>では、始めましょう</p>
+    <p>気を付けないと、以下のようなことが起こります。</p>
+    <p><audio src="bomb.mp3" controls>your browser does not support this object, please use another browser</audio></p>
     <h2>実験材料</h2>
     <dl>
       <dt>water</dt><dd>500ml</dd>
@@ -35,10 +37,32 @@
     
     <table>
       <tr><th>物質</th><th>燃焼時間</th><th>温度</th></tr>
-      <tr><td>iodine</td>20s<td></td><td>300C</td></tr>
-      <tr><td>magnesium</td>5s<td></td><td>20C</td></tr>
-      <tr><td>oxygen</td>3s<td></td><td>1000C</td></tr>
-      <tr><td>copper</td>50s<td></td><td>600C</td></tr>
+      <tr><td>iodine</td><td>20s</td><td>300C</td></tr>
+      <tr><td>magnesium</td><td>5s</td><td>20C</td></tr>
+      <tr><td>oxygen</td><td>3s</td><td>1000C</td></tr>
+      <tr><td>copper</td><td>50s</td><td>600C</td></tr>
     </table>
+    
+    <h1>アンケート</h1>
+    <p>皆さん、実験お疲れ様です。お手数ですが、アンケートを記入ください。</p>
+    <p>難しかったところやわからないところ</p>
+    <form id="top" action="#" method="post">
+      <p><input type="text" name="input1" value="なんでもOK"></p>
+      <p><input type="submit" value="送信"><input type="reset" value="取り消し"></p>
+    </form>
+    
+    <p>この実験で何時間かかった:
+      <input type="radio" name="input2" value="thirty" checked>30分
+      <input type="radio" name="input3" value="forty" checked>40分
+      <input type="radio" name="input4" value="fifty" checked>50分
+      <input type="radio" name="input5" value="sixty" checked>1時間
+    </p>
+    
+    <p>この実験で使わなかった道具は:
+      <input type="checkbox" name="input6" value="element1" checked>fluorine
+      <input type="checkbox" name="input7" value="element2" checked>silver
+      <input type="checkbox" name="input8" value="element3" checked>gold
+      <input type="checkbox" name="input9" value="element4" checked>mercury
+    </p>
   </body>
 </html>
